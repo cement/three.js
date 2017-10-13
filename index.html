@@ -93,16 +93,7 @@
 			</div>
 		</div>
 
-		<script>
-		var panel = document.getElementById( 'panel' );
-		var expandButton = document.getElementById( 'expandButton' );
-		expandButton.addEventListener( 'click', function ( event ) {
-
-			panel.classList.toggle( 'collapsed' );
-			event.preventDefault();
-
-		} );
-		</script>
+	
 
 		<div id="container">
 
@@ -265,6 +256,16 @@
 				<a href="https://www.chromeexperiments.com/globe" target="_blank" title="using" rel="nofllow" ><img src="files/projects/globe.jpg"></a>
 				<a href="http://helloracer.com/webgl/" target="_blank" title="using" rel="nofllow"><img src="files/projects/helloracer.jpg"></a>
 			</div>
+		<script>
+			var panel = document.getElementById( 'panel' );
+			var expandButton = document.getElementById( 'expandButton' );
+			expandButton.addEventListener( 'click', function ( event ) {
+
+				panel.classList.toggle( 'collapsed' );
+				event.preventDefault();
+
+			} );
+		</script>
 
 		<!--
 		<script>

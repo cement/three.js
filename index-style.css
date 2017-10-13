@@ -93,21 +93,17 @@
 				padding: 28px 20px;
 				background:#198
 			}
-				#container>#projects{
-                                   margin:0 auto;
-
+				#projects{
+                                   text-align:center;
 				}
-				#container #submit {
-					position: absolute;
-					top: 32px;
-					right: 20px;
-				}
+				
 
 				#container #projects a {
-					display: block;
+					/*display: block;*/
+					/*float: left;*/
 					width: 200px;
 					height: 150px;
-					float: left;
+					
 				}
 
 				#container #projects img {
